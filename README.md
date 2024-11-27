@@ -1,1 +1,1 @@
-# plugin
+# Wordpress AI Muse Plugin
