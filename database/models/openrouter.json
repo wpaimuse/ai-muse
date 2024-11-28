@@ -1,0 +1,3512 @@
+[
+  {
+    "name": "mistralai/mistral-large-2411",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 128000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000002,
+          "output": 0.000006
+        }
+      }
+    },
+    "created": 1731978685
+  },
+  {
+    "name": "mistralai/mistral-large-2407",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 128000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000002,
+          "output": 0.000006
+        }
+      }
+    },
+    "created": 1731978415
+  },
+  {
+    "name": "mistralai/pixtral-large-2411",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 128000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000002,
+          "output": 0.000006
+        }
+      }
+    },
+    "created": 1731977388
+  },
+  {
+    "name": "x-ai/grok-vision-beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000005,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1731976624
+  },
+  {
+    "name": "google/gemini-exp-1114",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1731714740
+  },
+  {
+    "name": "infermatic/mn-inferor-12b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32000,
+        "maxTokens": 32000
+      },
+      "pricing": {
+        "text": {
+          "input": 2.5e-7,
+          "output": 5e-7
+        }
+      }
+    },
+    "created": 1731464428
+  },
+  {
+    "name": "qwen/qwen-2.5-coder-32b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 1.8e-7,
+          "output": 1.8e-7
+        }
+      }
+    },
+    "created": 1731368400
+  },
+  {
+    "name": "raifle/sorcererlm-8x22b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16000,
+        "maxTokens": 16000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000045,
+          "output": 0.0000045
+        }
+      }
+    },
+    "created": 1731105083
+  },
+  {
+    "name": "eva-unit-01/eva-qwen-2.5-32b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32000,
+        "maxTokens": 32000
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 5e-7
+        }
+      }
+    },
+    "created": 1731104847
+  },
+  {
+    "name": "thedrummer/unslopnemo-12b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32000,
+        "maxTokens": 32000
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 5e-7
+        }
+      }
+    },
+    "created": 1731103448
+  },
+  {
+    "name": "anthropic/claude-3-5-haiku-20241022:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000005
+        }
+      }
+    },
+    "created": 1730678400
+  },
+  {
+    "name": "anthropic/claude-3-5-haiku-20241022",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000005
+        }
+      }
+    },
+    "created": 1730678400
+  },
+  {
+    "name": "anthropic/claude-3-5-haiku:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000005
+        }
+      }
+    },
+    "created": 1730678400
+  },
+  {
+    "name": "anthropic/claude-3-5-haiku",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000005
+        }
+      }
+    },
+    "created": 1730678400
+  },
+  {
+    "name": "neversleep/llama-3.1-lumimaid-70b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16384,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003375,
+          "output": 0.0000045
+        }
+      }
+    },
+    "created": 1729555200
+  },
+  {
+    "name": "anthracite-org/magnum-v4-72b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16384,
+        "maxTokens": 1024
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001875,
+          "output": 0.00000225
+        }
+      }
+    },
+    "created": 1729555200
+  },
+  {
+    "name": "anthropic/claude-3.5-sonnet:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1729555200
+  },
+  {
+    "name": "anthropic/claude-3.5-sonnet",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1729555200
+  },
+  {
+    "name": "x-ai/grok-beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 131072,
+        "maxTokens": 131072
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000005,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1729382400
+  },
+  {
+    "name": "mistralai/ministral-8b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 128000
+      },
+      "pricing": {
+        "text": {
+          "input": 1e-7,
+          "output": 1e-7
+        }
+      }
+    },
+    "created": 1729123200
+  },
+  {
+    "name": "mistralai/ministral-3b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 128000
+      },
+      "pricing": {
+        "text": {
+          "input": 4e-8,
+          "output": 4e-8
+        }
+      }
+    },
+    "created": 1729123200
+  },
+  {
+    "name": "qwen/qwen-2.5-7b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 2.7e-7,
+          "output": 2.7e-7
+        }
+      }
+    },
+    "created": 1729036800
+  },
+  {
+    "name": "nvidia/llama-3.1-nemotron-70b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 131072,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 3.5e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1728950400
+  },
+  {
+    "name": "inflection/inflection-3-pi",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8000,
+        "maxTokens": 8000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000025,
+          "output": 0.00001
+        }
+      }
+    },
+    "created": 1728604800
+  },
+  {
+    "name": "inflection/inflection-3-productivity",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8000,
+        "maxTokens": 8000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000025,
+          "output": 0.00001
+        }
+      }
+    },
+    "created": 1728604800
+  },
+  {
+    "name": "google/gemini-flash-1.5-8b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 3.75e-8,
+          "output": 1.5e-7
+        }
+      }
+    },
+    "created": 1727913600
+  },
+  {
+    "name": "liquid/lfm-40b:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1727654400
+  },
+  {
+    "name": "liquid/lfm-40b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1727654400
+  },
+  {
+    "name": "thedrummer/rocinante-12b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 2.5e-7,
+          "output": 5e-7
+        }
+      }
+    },
+    "created": 1727654400
+  },
+  {
+    "name": "meta-llama/llama-3.2-3b-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1727222400
+  },
+  {
+    "name": "meta-llama/llama-3.2-3b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 131072,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 3e-8,
+          "output": 5e-8
+        }
+      }
+    },
+    "created": 1727222400
+  },
+  {
+    "name": "meta-llama/llama-3.2-1b-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1727222400
+  },
+  {
+    "name": "meta-llama/llama-3.2-1b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 131072,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 1e-8,
+          "output": 2e-8
+        }
+      }
+    },
+    "created": 1727222400
+  },
+  {
+    "name": "meta-llama/llama-3.2-90b-vision-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1727222400
+  },
+  {
+    "name": "meta-llama/llama-3.2-90b-vision-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 3.5e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1727222400
+  },
+  {
+    "name": "meta-llama/llama-3.2-11b-vision-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1727222400
+  },
+  {
+    "name": "meta-llama/llama-3.2-11b-vision-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 131072,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5.5e-8,
+          "output": 5.5e-8
+        }
+      }
+    },
+    "created": 1727222400
+  },
+  {
+    "name": "qwen/qwen-2.5-72b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 3.5e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1726704000
+  },
+  {
+    "name": "qwen/qwen-2-vl-72b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 4e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1726617600
+  },
+  {
+    "name": "neversleep/llama-3.1-lumimaid-8b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 1.875e-7,
+          "output": 0.000001125
+        }
+      }
+    },
+    "created": 1726358400
+  },
+  {
+    "name": "openai/o1-mini-2024-09-12",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 65536
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000012
+        }
+      }
+    },
+    "created": 1726099200
+  },
+  {
+    "name": "openai/o1-mini",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 65536
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000012
+        }
+      }
+    },
+    "created": 1726099200
+  },
+  {
+    "name": "openai/o1-preview-2024-09-12",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000015,
+          "output": 0.00006
+        }
+      }
+    },
+    "created": 1726099200
+  },
+  {
+    "name": "openai/o1-preview",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000015,
+          "output": 0.00006
+        }
+      }
+    },
+    "created": 1726099200
+  },
+  {
+    "name": "mistralai/pixtral-12b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 1e-7,
+          "output": 1e-7
+        }
+      }
+    },
+    "created": 1725926400
+  },
+  {
+    "name": "cohere/command-r-plus-08-2024",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000002375,
+          "output": 0.0000095
+        }
+      }
+    },
+    "created": 1724976000
+  },
+  {
+    "name": "cohere/command-r-08-2024",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4000
+      },
+      "pricing": {
+        "text": {
+          "input": 1.425e-7,
+          "output": 5.7e-7
+        }
+      }
+    },
+    "created": 1724976000
+  },
+  {
+    "name": "qwen/qwen-2-vl-7b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 1e-7,
+          "output": 1e-7
+        }
+      }
+    },
+    "created": 1724803200
+  },
+  {
+    "name": "google/gemini-flash-1.5-8b-exp",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1724803200
+  },
+  {
+    "name": "sao10k/l3.1-euryale-70b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 3.5e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1724803200
+  },
+  {
+    "name": "google/gemini-flash-1.5-exp",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1724803200
+  },
+  {
+    "name": "ai21/jamba-1-5-large",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 256000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000002,
+          "output": 0.000008
+        }
+      }
+    },
+    "created": 1724371200
+  },
+  {
+    "name": "ai21/jamba-1-5-mini",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 256000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 2e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1724371200
+  },
+  {
+    "name": "microsoft/phi-3.5-mini-128k-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 128000
+      },
+      "pricing": {
+        "text": {
+          "input": 1e-7,
+          "output": 1e-7
+        }
+      }
+    },
+    "created": 1724198400
+  },
+  {
+    "name": "nousresearch/hermes-3-llama-3.1-70b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 12288,
+        "maxTokens": 12288
+      },
+      "pricing": {
+        "text": {
+          "input": 4e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1723939200
+  },
+  {
+    "name": "nousresearch/hermes-3-llama-3.1-405b:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1723766400
+  },
+  {
+    "name": "nousresearch/hermes-3-llama-3.1-405b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 131072,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00000179,
+          "output": 0.00000249
+        }
+      }
+    },
+    "created": 1723766400
+  },
+  {
+    "name": "perplexity/llama-3.1-sonar-huge-128k-online",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 127072,
+        "maxTokens": 127072
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000005,
+          "output": 0.000005
+        }
+      }
+    },
+    "created": 1723593600
+  },
+  {
+    "name": "openai/chatgpt-4o-latest",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 16384
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000005,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1723593600
+  },
+  {
+    "name": "openai/gpt-4o-2024-08-06",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 16384
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000025,
+          "output": 0.00001
+        }
+      }
+    },
+    "created": 1722902400
+  },
+  {
+    "name": "meta-llama/llama-3.1-405b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000002,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1722556800
+  },
+  {
+    "name": "google/gemini-pro-1.5-exp",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1722470400
+  },
+  {
+    "name": "perplexity/llama-3.1-sonar-large-128k-online",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 127072,
+        "maxTokens": 127072
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000001
+        }
+      }
+    },
+    "created": 1722470400
+  },
+  {
+    "name": "perplexity/llama-3.1-sonar-large-128k-chat",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 131072,
+        "maxTokens": 131072
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000001
+        }
+      }
+    },
+    "created": 1722470400
+  },
+  {
+    "name": "perplexity/llama-3.1-sonar-small-128k-online",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 127072,
+        "maxTokens": 127072
+      },
+      "pricing": {
+        "text": {
+          "input": 2e-7,
+          "output": 2e-7
+        }
+      }
+    },
+    "created": 1722470400
+  },
+  {
+    "name": "perplexity/llama-3.1-sonar-small-128k-chat",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 131072,
+        "maxTokens": 131072
+      },
+      "pricing": {
+        "text": {
+          "input": 2e-7,
+          "output": 2e-7
+        }
+      }
+    },
+    "created": 1722470400
+  },
+  {
+    "name": "meta-llama/llama-3.1-70b-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1721692800
+  },
+  {
+    "name": "meta-llama/llama-3.1-70b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 3.4e-7,
+          "output": 3.9e-7
+        }
+      }
+    },
+    "created": 1721692800
+  },
+  {
+    "name": "meta-llama/llama-3.1-70b-instruct:nitro",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 64000,
+        "maxTokens": 64000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00000325,
+          "output": 0.00000325
+        }
+      }
+    },
+    "created": 1721692800
+  },
+  {
+    "name": "meta-llama/llama-3.1-8b-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1721692800
+  },
+  {
+    "name": "meta-llama/llama-3.1-8b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-8,
+          "output": 5e-8
+        }
+      }
+    },
+    "created": 1721692800
+  },
+  {
+    "name": "meta-llama/llama-3.1-405b-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8000,
+        "maxTokens": 4000
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1721692800
+  },
+  {
+    "name": "meta-llama/llama-3.1-405b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00000179,
+          "output": 0.00000179
+        }
+      }
+    },
+    "created": 1721692800
+  },
+  {
+    "name": "meta-llama/llama-3.1-405b-instruct:nitro",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8000,
+        "maxTokens": 8000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00001462,
+          "output": 0.00001462
+        }
+      }
+    },
+    "created": 1721692800
+  },
+  {
+    "name": "mistralai/codestral-mamba",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 256000,
+        "maxTokens": 256000
+      },
+      "pricing": {
+        "text": {
+          "input": 2.5e-7,
+          "output": 2.5e-7
+        }
+      }
+    },
+    "created": 1721347200
+  },
+  {
+    "name": "mistralai/mistral-nemo",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 1.3e-7,
+          "output": 1.3e-7
+        }
+      }
+    },
+    "created": 1721347200
+  },
+  {
+    "name": "openai/gpt-4o-mini-2024-07-18",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 16384
+      },
+      "pricing": {
+        "text": {
+          "input": 1.5e-7,
+          "output": 6e-7
+        }
+      }
+    },
+    "created": 1721260800
+  },
+  {
+    "name": "openai/gpt-4o-mini",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 16384
+      },
+      "pricing": {
+        "text": {
+          "input": 1.5e-7,
+          "output": 6e-7
+        }
+      }
+    },
+    "created": 1721260800
+  },
+  {
+    "name": "qwen/qwen-2-7b-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1721088000
+  },
+  {
+    "name": "qwen/qwen-2-7b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 5.4e-8,
+          "output": 5.4e-8
+        }
+      }
+    },
+    "created": 1721088000
+  },
+  {
+    "name": "google/gemma-2-27b-it",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 2.7e-7,
+          "output": 2.7e-7
+        }
+      }
+    },
+    "created": 1720828800
+  },
+  {
+    "name": "alpindale/magnum-72b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16384,
+        "maxTokens": 1024
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001875,
+          "output": 0.00000225
+        }
+      }
+    },
+    "created": 1720656000
+  },
+  {
+    "name": "google/gemma-2-9b-it:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1719532800
+  },
+  {
+    "name": "google/gemma-2-9b-it",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 6e-8,
+          "output": 6e-8
+        }
+      }
+    },
+    "created": 1719532800
+  },
+  {
+    "name": "ai21/jamba-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 256000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 7e-7
+        }
+      }
+    },
+    "created": 1719273600
+  },
+  {
+    "name": "01-ai/yi-large",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000003
+        }
+      }
+    },
+    "created": 1719273600
+  },
+  {
+    "name": "anthropic/claude-3.5-sonnet-20240620:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1718841600
+  },
+  {
+    "name": "anthropic/claude-3.5-sonnet-20240620",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1718841600
+  },
+  {
+    "name": "sao10k/l3-euryale-70b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 3.5e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1718668800
+  },
+  {
+    "name": "cognitivecomputations/dolphin-mixtral-8x22b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16000,
+        "maxTokens": 16000
+      },
+      "pricing": {
+        "text": {
+          "input": 9e-7,
+          "output": 9e-7
+        }
+      }
+    },
+    "created": 1717804800
+  },
+  {
+    "name": "qwen/qwen-2-72b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 3.4e-7,
+          "output": 3.9e-7
+        }
+      }
+    },
+    "created": 1717718400
+  },
+  {
+    "name": "nousresearch/hermes-2-pro-llama-3-8b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 1.4e-7,
+          "output": 1.4e-7
+        }
+      }
+    },
+    "created": 1716768000
+  },
+  {
+    "name": "mistralai/mistral-7b-instruct-v0.3",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5.5e-8,
+          "output": 5.5e-8
+        }
+      }
+    },
+    "created": 1716768000
+  },
+  {
+    "name": "mistralai/mistral-7b-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1716768000
+  },
+  {
+    "name": "mistralai/mistral-7b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5.5e-8,
+          "output": 5.5e-8
+        }
+      }
+    },
+    "created": 1716768000
+  },
+  {
+    "name": "mistralai/mistral-7b-instruct:nitro",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 7e-8,
+          "output": 7e-8
+        }
+      }
+    },
+    "created": 1716768000
+  },
+  {
+    "name": "microsoft/phi-3-mini-128k-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1716681600
+  },
+  {
+    "name": "microsoft/phi-3-mini-128k-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 128000
+      },
+      "pricing": {
+        "text": {
+          "input": 1e-7,
+          "output": 1e-7
+        }
+      }
+    },
+    "created": 1716681600
+  },
+  {
+    "name": "microsoft/phi-3-medium-128k-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1716508800
+  },
+  {
+    "name": "microsoft/phi-3-medium-128k-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 128000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000001
+        }
+      }
+    },
+    "created": 1716508800
+  },
+  {
+    "name": "neversleep/llama-3-lumimaid-70b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003375,
+          "output": 0.0000045
+        }
+      }
+    },
+    "created": 1715817600
+  },
+  {
+    "name": "google/gemini-flash-1.5",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 7.5e-8,
+          "output": 3e-7
+        }
+      }
+    },
+    "created": 1715644800
+  },
+  {
+    "name": "deepseek/deepseek-chat",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 65536,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 1.4e-7,
+          "output": 2.8e-7
+        }
+      }
+    },
+    "created": 1715644800
+  },
+  {
+    "name": "perplexity/llama-3-sonar-large-32k-online",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 28000,
+        "maxTokens": 28000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000001
+        }
+      }
+    },
+    "created": 1715644800
+  },
+  {
+    "name": "perplexity/llama-3-sonar-large-32k-chat",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000001
+        }
+      }
+    },
+    "created": 1715644800
+  },
+  {
+    "name": "perplexity/llama-3-sonar-small-32k-chat",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 2e-7,
+          "output": 2e-7
+        }
+      }
+    },
+    "created": 1715644800
+  },
+  {
+    "name": "meta-llama/llama-guard-2-8b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 1.8e-7,
+          "output": 1.8e-7
+        }
+      }
+    },
+    "created": 1715558400
+  },
+  {
+    "name": "openai/gpt-4o-2024-05-13",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000005,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1715558400
+  },
+  {
+    "name": "openai/gpt-4o",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 16384
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000025,
+          "output": 0.00001
+        }
+      }
+    },
+    "created": 1715558400
+  },
+  {
+    "name": "openai/gpt-4o:extended",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 64000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000006,
+          "output": 0.000018
+        }
+      }
+    },
+    "created": 1715558400
+  },
+  {
+    "name": "neversleep/llama-3-lumimaid-8b:extended",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 24576,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 1.875e-7,
+          "output": 0.000001125
+        }
+      }
+    },
+    "created": 1714780800
+  },
+  {
+    "name": "neversleep/llama-3-lumimaid-8b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 24576,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 1.875e-7,
+          "output": 0.000001125
+        }
+      }
+    },
+    "created": 1714780800
+  },
+  {
+    "name": "meta-llama/llama-3-70b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 3.5e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1713398400
+  },
+  {
+    "name": "meta-llama/llama-3-70b-instruct:nitro",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 7.92e-7,
+          "output": 7.92e-7
+        }
+      }
+    },
+    "created": 1713398400
+  },
+  {
+    "name": "meta-llama/llama-3-8b-instruct:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1713398400
+  },
+  {
+    "name": "meta-llama/llama-3-8b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 4e-8,
+          "output": 4e-8
+        }
+      }
+    },
+    "created": 1713398400
+  },
+  {
+    "name": "meta-llama/llama-3-8b-instruct:extended",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16384,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 1.875e-7,
+          "output": 0.000001125
+        }
+      }
+    },
+    "created": 1713398400
+  },
+  {
+    "name": "meta-llama/llama-3-8b-instruct:nitro",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 2e-7,
+          "output": 2e-7
+        }
+      }
+    },
+    "created": 1713398400
+  },
+  {
+    "name": "mistralai/mixtral-8x22b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 65536,
+        "maxTokens": 65536
+      },
+      "pricing": {
+        "text": {
+          "input": 9e-7,
+          "output": 9e-7
+        }
+      }
+    },
+    "created": 1713312000
+  },
+  {
+    "name": "microsoft/wizardlm-2-7b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5.5e-8,
+          "output": 5.5e-8
+        }
+      }
+    },
+    "created": 1713225600
+  },
+  {
+    "name": "microsoft/wizardlm-2-8x22b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 65536,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 5e-7
+        }
+      }
+    },
+    "created": 1713225600
+  },
+  {
+    "name": "google/gemini-pro-1.5",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 2000000,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00000125,
+          "output": 0.000005
+        }
+      }
+    },
+    "created": 1712620800
+  },
+  {
+    "name": "openai/gpt-4-turbo",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00001,
+          "output": 0.00003
+        }
+      }
+    },
+    "created": 1712620800
+  },
+  {
+    "name": "cohere/command-r-plus",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00000285,
+          "output": 0.00001425
+        }
+      }
+    },
+    "created": 1712188800
+  },
+  {
+    "name": "cohere/command-r-plus-04-2024",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00000285,
+          "output": 0.00001425
+        }
+      }
+    },
+    "created": 1712016000
+  },
+  {
+    "name": "databricks/dbrx-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00000108,
+          "output": 0.00000108
+        }
+      }
+    },
+    "created": 1711670400
+  },
+  {
+    "name": "sophosympatheia/midnight-rose-70b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 8e-7,
+          "output": 8e-7
+        }
+      }
+    },
+    "created": 1711065600
+  },
+  {
+    "name": "cohere/command-r",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4000
+      },
+      "pricing": {
+        "text": {
+          "input": 4.75e-7,
+          "output": 0.000001425
+        }
+      }
+    },
+    "created": 1710374400
+  },
+  {
+    "name": "cohere/command",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4000
+      },
+      "pricing": {
+        "text": {
+          "input": 9.5e-7,
+          "output": 0.0000019
+        }
+      }
+    },
+    "created": 1710374400
+  },
+  {
+    "name": "anthropic/claude-3-haiku:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 2.5e-7,
+          "output": 0.00000125
+        }
+      }
+    },
+    "created": 1710288000
+  },
+  {
+    "name": "anthropic/claude-3-haiku",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 2.5e-7,
+          "output": 0.00000125
+        }
+      }
+    },
+    "created": 1710288000
+  },
+  {
+    "name": "anthropic/claude-3-sonnet:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1709596800
+  },
+  {
+    "name": "anthropic/claude-3-sonnet",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1709596800
+  },
+  {
+    "name": "anthropic/claude-3-opus:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000015,
+          "output": 0.000075
+        }
+      }
+    },
+    "created": 1709596800
+  },
+  {
+    "name": "anthropic/claude-3-opus",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000015,
+          "output": 0.000075
+        }
+      }
+    },
+    "created": 1709596800
+  },
+  {
+    "name": "cohere/command-r-03-2024",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4000
+      },
+      "pricing": {
+        "text": {
+          "input": 4.75e-7,
+          "output": 0.000001425
+        }
+      }
+    },
+    "created": 1709341200
+  },
+  {
+    "name": "mistralai/mistral-large",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 128000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000002,
+          "output": 0.000006
+        }
+      }
+    },
+    "created": 1708905600
+  },
+  {
+    "name": "openai/gpt-4-turbo-preview",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00001,
+          "output": 0.00003
+        }
+      }
+    },
+    "created": 1706140800
+  },
+  {
+    "name": "openai/gpt-3.5-turbo-0613",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4095,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1706140800
+  },
+  {
+    "name": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 5.4e-7,
+          "output": 5.4e-7
+        }
+      }
+    },
+    "created": 1705363200
+  },
+  {
+    "name": "mistralai/mistral-small",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32000,
+        "maxTokens": 32000
+      },
+      "pricing": {
+        "text": {
+          "input": 2e-7,
+          "output": 6e-7
+        }
+      }
+    },
+    "created": 1704844800
+  },
+  {
+    "name": "mistralai/mistral-medium",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32000,
+        "maxTokens": 32000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00000275,
+          "output": 0.0000081
+        }
+      }
+    },
+    "created": 1704844800
+  },
+  {
+    "name": "mistralai/mistral-tiny",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32000,
+        "maxTokens": 32000
+      },
+      "pricing": {
+        "text": {
+          "input": 2.5e-7,
+          "output": 2.5e-7
+        }
+      }
+    },
+    "created": 1704844800
+  },
+  {
+    "name": "mistralai/mistral-7b-instruct-v0.2",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 1.8e-7,
+          "output": 1.8e-7
+        }
+      }
+    },
+    "created": 1703721600
+  },
+  {
+    "name": "cognitivecomputations/dolphin-mixtral-8x7b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 5e-7
+        }
+      }
+    },
+    "created": 1703116800
+  },
+  {
+    "name": "google/gemini-pro",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32760,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 0.0000015
+        }
+      }
+    },
+    "created": 1702425600
+  },
+  {
+    "name": "google/gemini-pro-vision",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16384,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 0.0000015
+        }
+      }
+    },
+    "created": 1702425600
+  },
+  {
+    "name": "mistralai/mixtral-8x7b-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 2.4e-7,
+          "output": 2.4e-7
+        }
+      }
+    },
+    "created": 1702166400
+  },
+  {
+    "name": "mistralai/mixtral-8x7b-instruct:nitro",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 5.4e-7,
+          "output": 5.4e-7
+        }
+      }
+    },
+    "created": 1702166400
+  },
+  {
+    "name": "mistralai/mixtral-8x7b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 5.4e-7,
+          "output": 5.4e-7
+        }
+      }
+    },
+    "created": 1702166400
+  },
+  {
+    "name": "openchat/openchat-7b:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1701129600
+  },
+  {
+    "name": "openchat/openchat-7b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5.5e-8,
+          "output": 5.5e-8
+        }
+      }
+    },
+    "created": 1701129600
+  },
+  {
+    "name": "neversleep/noromaid-20b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000015,
+          "output": 0.00000225
+        }
+      }
+    },
+    "created": 1700956800
+  },
+  {
+    "name": "anthropic/claude-2.1:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000008,
+          "output": 0.000024
+        }
+      }
+    },
+    "created": 1700611200
+  },
+  {
+    "name": "anthropic/claude-2.1",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000008,
+          "output": 0.000024
+        }
+      }
+    },
+    "created": 1700611200
+  },
+  {
+    "name": "anthropic/claude-2:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000008,
+          "output": 0.000024
+        }
+      }
+    },
+    "created": 1700611200
+  },
+  {
+    "name": "anthropic/claude-2",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000008,
+          "output": 0.000024
+        }
+      }
+    },
+    "created": 1700611200
+  },
+  {
+    "name": "teknium/openhermes-2.5-mistral-7b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 1.7e-7,
+          "output": 1.7e-7
+        }
+      }
+    },
+    "created": 1700438400
+  },
+  {
+    "name": "openai/gpt-4-vision-preview",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00001,
+          "output": 0.00003
+        }
+      }
+    },
+    "created": 1699833600
+  },
+  {
+    "name": "lizpreciatior/lzlv-70b-fp16-hf",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 3.5e-7,
+          "output": 4e-7
+        }
+      }
+    },
+    "created": 1699747200
+  },
+  {
+    "name": "alpindale/goliath-120b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 6144,
+        "maxTokens": 400
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000009375,
+          "output": 0.000009375
+        }
+      }
+    },
+    "created": 1699574400
+  },
+  {
+    "name": "undi95/toppy-m-7b:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1699574400
+  },
+  {
+    "name": "undi95/toppy-m-7b:nitro",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 7e-8,
+          "output": 7e-8
+        }
+      }
+    },
+    "created": 1699574400
+  },
+  {
+    "name": "undi95/toppy-m-7b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 7e-8,
+          "output": 7e-8
+        }
+      }
+    },
+    "created": 1699574400
+  },
+  {
+    "name": "openrouter/auto",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 200000,
+        "maxTokens": 200000
+      },
+      "pricing": {
+        "text": {
+          "input": -1,
+          "output": -1
+        }
+      }
+    },
+    "created": 1699401600
+  },
+  {
+    "name": "openai/gpt-4-1106-preview",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00001,
+          "output": 0.00003
+        }
+      }
+    },
+    "created": 1699228800
+  },
+  {
+    "name": "openai/gpt-3.5-turbo-1106",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16385,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1699228800
+  },
+  {
+    "name": "google/palm-2-codechat-bison-32k",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1698969600
+  },
+  {
+    "name": "google/palm-2-chat-bison-32k",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32768,
+        "maxTokens": 8192
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1698969600
+  },
+  {
+    "name": "jondurbin/airoboros-l2-70b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 5e-7
+        }
+      }
+    },
+    "created": 1698537600
+  },
+  {
+    "name": "xwin-lm/xwin-lm-70b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 400
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00000375,
+          "output": 0.00000375
+        }
+      }
+    },
+    "created": 1697328000
+  },
+  {
+    "name": "mistralai/mistral-7b-instruct-v0.1",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 1.8e-7,
+          "output": 1.8e-7
+        }
+      }
+    },
+    "created": 1695859200
+  },
+  {
+    "name": "openai/gpt-3.5-turbo-instruct",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4095,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000015,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1695859200
+  },
+  {
+    "name": "pygmalionai/mythalion-13b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 400
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001125,
+          "output": 0.000001125
+        }
+      }
+    },
+    "created": 1693612800
+  },
+  {
+    "name": "openai/gpt-4-32k-0314",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32767,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00006,
+          "output": 0.00012
+        }
+      }
+    },
+    "created": 1693180800
+  },
+  {
+    "name": "openai/gpt-4-32k",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32767,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00006,
+          "output": 0.00012
+        }
+      }
+    },
+    "created": 1693180800
+  },
+  {
+    "name": "openai/gpt-3.5-turbo-16k",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16385,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000004
+        }
+      }
+    },
+    "created": 1693180800
+  },
+  {
+    "name": "nousresearch/nous-hermes-llama2-13b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 1.7e-7,
+          "output": 1.7e-7
+        }
+      }
+    },
+    "created": 1692489600
+  },
+  {
+    "name": "huggingfaceh4/zephyr-7b-beta:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1690934400
+  },
+  {
+    "name": "mancer/weaver",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8000,
+        "maxTokens": 1000
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001875,
+          "output": 0.00000225
+        }
+      }
+    },
+    "created": 1690934400
+  },
+  {
+    "name": "anthropic/claude-2.0:beta",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 100000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000008,
+          "output": 0.000024
+        }
+      }
+    },
+    "created": 1690502400
+  },
+  {
+    "name": "anthropic/claude-2.0",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 100000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000008,
+          "output": 0.000024
+        }
+      }
+    },
+    "created": 1690502400
+  },
+  {
+    "name": "undi95/remm-slerp-l2-13b:extended",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 6144,
+        "maxTokens": 400
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001125,
+          "output": 0.000001125
+        }
+      }
+    },
+    "created": 1689984000
+  },
+  {
+    "name": "undi95/remm-slerp-l2-13b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 6144,
+        "maxTokens": 400
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001125,
+          "output": 0.000001125
+        }
+      }
+    },
+    "created": 1689984000
+  },
+  {
+    "name": "google/palm-2-codechat-bison",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 7168,
+        "maxTokens": 1024
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1689811200
+  },
+  {
+    "name": "google/palm-2-chat-bison",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 9216,
+        "maxTokens": 1024
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1689811200
+  },
+  {
+    "name": "gryphe/mythomax-l2-13b:free",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 2048
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 1688256000
+  },
+  {
+    "name": "gryphe/mythomax-l2-13b",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 8e-8,
+          "output": 8e-8
+        }
+      }
+    },
+    "created": 1688256000
+  },
+  {
+    "name": "gryphe/mythomax-l2-13b:nitro",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 2e-7,
+          "output": 2e-7
+        }
+      }
+    },
+    "created": 1688256000
+  },
+  {
+    "name": "gryphe/mythomax-l2-13b:extended",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8192,
+        "maxTokens": 512
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001125,
+          "output": 0.000001125
+        }
+      }
+    },
+    "created": 1688256000
+  },
+  {
+    "name": "meta-llama/llama-2-13b-chat",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4096,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 1.98e-7,
+          "output": 1.98e-7
+        }
+      }
+    },
+    "created": 1687219200
+  },
+  {
+    "name": "openai/gpt-4-0314",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8191,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00003,
+          "output": 0.00006
+        }
+      }
+    },
+    "created": 1685232000
+  },
+  {
+    "name": "openai/gpt-4",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8191,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00003,
+          "output": 0.00006
+        }
+      }
+    },
+    "created": 1685232000
+  },
+  {
+    "name": "openai/gpt-3.5-turbo-0125",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16385,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 0.0000015
+        }
+      }
+    },
+    "created": 1685232000
+  },
+  {
+    "name": "openai/gpt-3.5-turbo",
+    "service": "openrouter",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16385,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 0.0000015
+        }
+      }
+    },
+    "created": 1685232000
+  }
+]

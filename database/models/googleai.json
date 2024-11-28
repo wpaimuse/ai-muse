@@ -1,0 +1,317 @@
+[
+  {
+    "name": "gemini-1.0-pro-latest",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 30720,
+        "maxTokens": 2048,
+        "temperature": 0.9,
+        "topK": null,
+        "topP": 1
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.0-pro",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 30720,
+        "maxTokens": 2048,
+        "temperature": 0.9,
+        "topK": null,
+        "topP": 1
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-pro",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 30720,
+        "maxTokens": 2048,
+        "temperature": 0.9,
+        "topK": null,
+        "topP": 1
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.0-pro-001",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 30720,
+        "maxTokens": 2048,
+        "temperature": 0.9,
+        "topK": null,
+        "topP": 1
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.0-pro-vision-latest",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 12288,
+        "maxTokens": 4096,
+        "temperature": 0.4,
+        "topK": 32,
+        "topP": 1
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-pro-vision",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 12288,
+        "maxTokens": 4096,
+        "temperature": 0.4,
+        "topK": 32,
+        "topP": 1
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.5-pro-001",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 2000000,
+        "maxTokens": 8192,
+        "temperature": 1,
+        "topK": 64,
+        "topP": 0.95
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.5-pro-002",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 2000000,
+        "maxTokens": 8192,
+        "temperature": 1,
+        "topK": 40,
+        "topP": 0.95
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.5-pro",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 2000000,
+        "maxTokens": 8192,
+        "temperature": 1,
+        "topK": 40,
+        "topP": 0.95
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.5-flash-001",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192,
+        "temperature": 1,
+        "topK": 64,
+        "topP": 0.95
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.5-flash-001-tuning",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16384,
+        "maxTokens": 8192,
+        "temperature": 1,
+        "topK": 64,
+        "topP": 0.95
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.5-flash",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192,
+        "temperature": 1,
+        "topK": 40,
+        "topP": 0.95
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.5-flash-002",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192,
+        "temperature": 1,
+        "topK": 40,
+        "topP": 0.95
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.5-flash-8b",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192,
+        "temperature": 1,
+        "topK": 40,
+        "topP": 0.95
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  },
+  {
+    "name": "gemini-1.5-flash-8b-001",
+    "service": "googleai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 1000000,
+        "maxTokens": 8192,
+        "temperature": 1,
+        "topK": 40,
+        "topP": 0.95
+      },
+      "pricing": {
+        "text": {
+          "input": 0,
+          "output": 0
+        }
+      }
+    },
+    "created": 0
+  }
+]

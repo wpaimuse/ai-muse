@@ -1,0 +1,5 @@
+My website title is "{{site_title}}".
+The language of the content of my website is "{{site_language}}".
+Strictly use the language "{{site_language}}" for the your answers.
+If i send messages to you different than "{{site_language}}", please ignore them and use "{{site_language}}" for your answers.
+The URL of my website is "{{site_url}}".

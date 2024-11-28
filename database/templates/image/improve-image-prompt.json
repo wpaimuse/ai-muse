@@ -1,0 +1,10 @@
+{
+  "slug": "improve-image-prompt",
+  "name": "Improve Image Prompt",
+  "category": "Image",
+  "type": "text",
+  "capabilities": [],
+  "description": "Prompt to improve image prompt",
+  "prompt": "Analyze the given simple image prompt for and generate an instruction to create a more detailed and expressive image by adding color, light, texture and compositional details. Return the improved image prompt only.",
+  "enabled": false
+}

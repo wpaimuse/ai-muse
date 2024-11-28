@@ -1,0 +1,521 @@
+[
+  {
+    "name": "chatgpt-4o-latest",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 16384
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000005,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1723593600
+  },
+  {
+    "name": "gpt-4o-2024-08-06",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 16384
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000025,
+          "output": 0.00001
+        }
+      }
+    },
+    "created": 1722902400
+  },
+  {
+    "name": "gpt-4o-mini-2024-07-18",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 16384
+      },
+      "pricing": {
+        "text": {
+          "input": 1.5e-7,
+          "output": 6e-7
+        }
+      }
+    },
+    "created": 1721260800
+  },
+  {
+    "name": "gpt-4o-mini",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 16384
+      },
+      "pricing": {
+        "text": {
+          "input": 1.5e-7,
+          "output": 6e-7
+        }
+      }
+    },
+    "created": 1721260800
+  },
+  {
+    "name": "gpt-4o-2024-05-13",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000005,
+          "output": 0.000015
+        }
+      }
+    },
+    "created": 1715558400
+  },
+  {
+    "name": "gpt-4o",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000025,
+          "output": 0.00001
+        }
+      }
+    },
+    "created": 1715558400
+  },
+  {
+    "name": "gpt-4-turbo",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00001,
+          "output": 0.00003
+        }
+      }
+    },
+    "created": 1712620800
+  },
+  {
+    "name": "gpt-4-turbo-preview",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00001,
+          "output": 0.00003
+        }
+      }
+    },
+    "created": 1706140800
+  },
+  {
+    "name": "gpt-3.5-turbo-0613",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4095,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1706140800
+  },
+  {
+    "name": "gpt-4-vision-preview",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00001,
+          "output": 0.00003
+        }
+      }
+    },
+    "created": 1699833600
+  },
+  {
+    "name": "gpt-4-1106-preview",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00001,
+          "output": 0.00003
+        }
+      }
+    },
+    "created": 1699228800
+  },
+  {
+    "name": "gpt-3.5-turbo-1106",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16385,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1699228800
+  },
+  {
+    "name": "gpt-3.5-turbo-instruct",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4095,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.0000015,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1695859200
+  },
+  {
+    "name": "gpt-4-32k-0314",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32767,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00006,
+          "output": 0.00012
+        }
+      }
+    },
+    "created": 1693180800
+  },
+  {
+    "name": "gpt-4-32k",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 32767,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00006,
+          "output": 0.00012
+        }
+      }
+    },
+    "created": 1693180800
+  },
+  {
+    "name": "gpt-3.5-turbo-16k",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16385,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000004
+        }
+      }
+    },
+    "created": 1693180800
+  },
+  {
+    "name": "gpt-4-0314",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8191,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00003,
+          "output": 0.00006
+        }
+      }
+    },
+    "created": 1685232000
+  },
+  {
+    "name": "gpt-4",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 8191,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.00003,
+          "output": 0.00006
+        }
+      }
+    },
+    "created": 1685232000
+  },
+  {
+    "name": "gpt-3.5-turbo-0301",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 4095,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000001,
+          "output": 0.000002
+        }
+      }
+    },
+    "created": 1685232000
+  },
+  {
+    "name": "gpt-3.5-turbo-0125",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16385,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 0.0000015
+        }
+      }
+    },
+    "created": 1685232000
+  },
+  {
+    "name": "gpt-3.5-turbo",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 16385,
+        "maxTokens": 4096
+      },
+      "pricing": {
+        "text": {
+          "input": 5e-7,
+          "output": 0.0000015
+        }
+      }
+    },
+    "created": 1685232000
+  },
+  {
+    "name": "dall-e-2",
+    "service": "openai",
+    "type": "image",
+    "meta": {
+      "pricing": {
+        "image": [
+          {
+            "price": 0.02,
+            "quality": "standard",
+            "resolution": "1024x1024"
+          },
+          {
+            "price": 0.018,
+            "quality": "standard",
+            "resolution": "512x512"
+          },
+          {
+            "price": 0.016,
+            "quality": "standard",
+            "resolution": "256x256"
+          }
+        ]
+      }
+    },
+    "created": 1664617670
+  },
+  {
+    "name": "dall-e-3",
+    "service": "openai",
+    "type": "image",
+    "meta": {
+      "pricing": {
+        "image": [
+          {
+            "price": 0.04,
+            "quality": "standard",
+            "resolution": "1024x1024"
+          },
+          {
+            "price": 0.08,
+            "quality": "standard",
+            "resolution": "1024x1792"
+          },
+          {
+            "price": 0.08,
+            "quality": "standard",
+            "resolution": "1792x1024"
+          },
+          {
+            "price": 0.08,
+            "quality": "hd",
+            "resolution": "1024x1024"
+          },
+          {
+            "price": 0.12,
+            "quality": "hd",
+            "resolution": "1024x1792"
+          },
+          {
+            "price": 0.12,
+            "quality": "hd",
+            "resolution": "1792x1024"
+          }
+        ]
+      }
+    },
+    "created": 1696153670
+  },
+  {
+    "name": "o1-mini-2024-09-12",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 65536
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000012
+        }
+      }
+    },
+    "created": 1726099200
+  },
+  {
+    "name": "o1-mini",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 65536
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000003,
+          "output": 0.000012
+        }
+      }
+    },
+    "created": 1726099200
+  },
+  {
+    "name": "o1-preview-2024-09-12",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000015,
+          "output": 0.00006
+        }
+      }
+    },
+    "created": 1726099200
+  },
+  {
+    "name": "o1-preview",
+    "service": "openai",
+    "type": "text",
+    "meta": {
+      "defaults": {
+        "contextLength": 128000,
+        "maxTokens": 32768
+      },
+      "pricing": {
+        "text": {
+          "input": 0.000015,
+          "output": 0.00006
+        }
+      }
+    },
+    "created": 1726099200
+  }
+]
