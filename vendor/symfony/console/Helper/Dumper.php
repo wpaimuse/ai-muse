@@ -12,9 +12,9 @@
 namespace AIMuseVendor\Symfony\Component\Console\Helper;
 
 use AIMuseVendor\Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\VarDumper\Cloner\ClonerInterface;
-use Symfony\Component\VarDumper\Cloner\VarCloner;
-use Symfony\Component\VarDumper\Dumper\CliDumper;
+use AIMuseVendor\Symfony\Component\VarDumper\Cloner\ClonerInterface;
+use AIMuseVendor\Symfony\Component\VarDumper\Cloner\VarCloner;
+use AIMuseVendor\Symfony\Component\VarDumper\Dumper\CliDumper;
 
 /**
  * @author Roland Franssen <franssen.roland@gmail.com>

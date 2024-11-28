@@ -27,7 +27,7 @@ interface ExceptionHandler
     /**
      * Render an exception into an HTTP response.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \AIMuseVendor\Illuminate\Http\Request  $request
      * @param  \Throwable  $e
      * @return \AIMuseVendor\Symfony\Component\HttpFoundation\Response
      *

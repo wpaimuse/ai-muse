@@ -13,7 +13,7 @@ namespace AIMuseVendor\Symfony\Component\HttpFoundation\File;
 
 use AIMuseVendor\Symfony\Component\HttpFoundation\File\Exception\FileException;
 use AIMuseVendor\Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException;
-use Symfony\Component\Mime\MimeTypes;
+use AIMuseVendor\Symfony\Component\Mime\MimeTypes;
 
 /**
  * A file in the file system.

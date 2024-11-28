@@ -13,7 +13,7 @@ use AIMuseVendor\Illuminate\Support\Enumerable;
 use AIMuseVendor\Illuminate\Support\HigherOrderCollectionProxy;
 use AIMuseVendor\Illuminate\Support\HigherOrderWhenProxy;
 use JsonSerializable;
-use Symfony\Component\VarDumper\VarDumper;
+use AIMuseVendor\Symfony\Component\VarDumper\VarDumper;
 use Traversable;
 use UnexpectedValueException;
 use UnitEnum;

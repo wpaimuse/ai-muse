@@ -13,7 +13,7 @@ namespace AIMuseVendor\Symfony\Component\Validator\Constraints;
 
 use AIMuseVendor\Symfony\Component\HttpFoundation\File\File as FileObject;
 use AIMuseVendor\Symfony\Component\HttpFoundation\File\UploadedFile;
-use Symfony\Component\Mime\MimeTypes;
+use AIMuseVendor\Symfony\Component\Mime\MimeTypes;
 use AIMuseVendor\Symfony\Component\Validator\Constraint;
 use AIMuseVendor\Symfony\Component\Validator\ConstraintValidator;
 use AIMuseVendor\Symfony\Component\Validator\Exception\LogicException;

@@ -29,7 +29,7 @@ class ShareErrorsFromSession
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \AIMuseVendor\Illuminate\Http\Request  $request
      * @param  \Closure  $next
      * @return mixed
      */

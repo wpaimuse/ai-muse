@@ -26,10 +26,10 @@ namespace AIMuseVendor\Illuminate\Support\Facades;
  * @method static void put(string|array $key, $value = null)
  * @method static void setId(string $id)
  * @method static void setPreviousUrl(string $url)
- * @method static void setRequestOnHandler(\Illuminate\Http\Request $request)
+ * @method static void setRequestOnHandler(\AIMuseVendor\Illuminate\Http\Request $request)
  *
- * @see \Illuminate\Session\SessionManager
- * @see \Illuminate\Session\Store
+ * @see \AIMuseVendor\Illuminate\Session\SessionManager
+ * @see \AIMuseVendor\Illuminate\Session\Store
  */
 class Session extends Facade
 {

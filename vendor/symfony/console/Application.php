@@ -49,8 +49,8 @@ use AIMuseVendor\Symfony\Component\Console\Output\ConsoleOutputInterface;
 use AIMuseVendor\Symfony\Component\Console\Output\OutputInterface;
 use AIMuseVendor\Symfony\Component\Console\SignalRegistry\SignalRegistry;
 use AIMuseVendor\Symfony\Component\Console\Style\SymfonyStyle;
-use Symfony\Component\ErrorHandler\ErrorHandler;
-use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
+use AIMuseVendor\Symfony\Component\ErrorHandler\ErrorHandler;
+use AIMuseVendor\Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 use AIMuseVendor\Symfony\Contracts\Service\ResetInterface;
 
 /**

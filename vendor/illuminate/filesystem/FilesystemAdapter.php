@@ -7,8 +7,8 @@ use AIMuseVendor\Illuminate\Contracts\Filesystem\Cloud as CloudFilesystemContrac
 use AIMuseVendor\Illuminate\Contracts\Filesystem\FileExistsException as ContractFileExistsException;
 use AIMuseVendor\Illuminate\Contracts\Filesystem\FileNotFoundException as ContractFileNotFoundException;
 use AIMuseVendor\Illuminate\Contracts\Filesystem\Filesystem as FilesystemContract;
-use Illuminate\Http\File;
-use Illuminate\Http\UploadedFile;
+use AIMuseVendor\Illuminate\Http\File;
+use AIMuseVendor\Illuminate\Http\UploadedFile;
 use AIMuseVendor\Illuminate\Support\Arr;
 use AIMuseVendor\Illuminate\Support\Collection;
 use AIMuseVendor\Illuminate\Support\Str;
@@ -234,7 +234,7 @@ class FilesystemAdapter implements CloudFilesystemContract
      * Write the contents of a file.
      *
      * @param  string  $path
-     * @param  \AIMuseVendor\Psr\Http\Message\StreamInterface|\Illuminate\Http\File|\Illuminate\Http\UploadedFile|string|resource  $contents
+     * @param  \AIMuseVendor\Psr\Http\Message\StreamInterface|\AIMuseVendor\Illuminate\Http\File|\AIMuseVendor\Illuminate\Http\UploadedFile|string|resource  $contents
      * @param  mixed  $options
      * @return bool
      */
@@ -265,7 +265,7 @@ class FilesystemAdapter implements CloudFilesystemContract
      * Store the uploaded file on the disk.
      *
      * @param  string  $path
-     * @param  \Illuminate\Http\File|\Illuminate\Http\UploadedFile|string  $file
+     * @param  \AIMuseVendor\Illuminate\Http\File|\AIMuseVendor\Illuminate\Http\UploadedFile|string  $file
      * @param  mixed  $options
      * @return string|false
      */
@@ -280,7 +280,7 @@ class FilesystemAdapter implements CloudFilesystemContract
      * Store the uploaded file on the disk with a given name.
      *
      * @param  string  $path
-     * @param  \Illuminate\Http\File|\Illuminate\Http\UploadedFile|string  $file
+     * @param  \AIMuseVendor\Illuminate\Http\File|\AIMuseVendor\Illuminate\Http\UploadedFile|string  $file
      * @param  string  $name
      * @param  mixed  $options
      * @return string|false

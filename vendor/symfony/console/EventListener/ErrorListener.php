@@ -16,7 +16,7 @@ use AIMuseVendor\Symfony\Component\Console\ConsoleEvents;
 use AIMuseVendor\Symfony\Component\Console\Event\ConsoleErrorEvent;
 use AIMuseVendor\Symfony\Component\Console\Event\ConsoleEvent;
 use AIMuseVendor\Symfony\Component\Console\Event\ConsoleTerminateEvent;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
+use AIMuseVendor\Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * @author James Halsall <james.t.halsall@googlemail.com>

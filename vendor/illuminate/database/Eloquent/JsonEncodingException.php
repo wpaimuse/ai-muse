@@ -21,7 +21,7 @@ class JsonEncodingException extends RuntimeException
     /**
      * Create a new JSON encoding exception for the resource.
      *
-     * @param  \Illuminate\Http\Resources\Json\JsonResource  $resource
+     * @param  \AIMuseVendor\Illuminate\Http\Resources\Json\JsonResource  $resource
      * @param  string  $message
      * @return static
      */

@@ -14,7 +14,7 @@ namespace AIMuseVendor\Symfony\Component\Console\Event;
 use AIMuseVendor\Symfony\Component\Console\Command\Command;
 use AIMuseVendor\Symfony\Component\Console\Input\InputInterface;
 use AIMuseVendor\Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Contracts\EventDispatcher\Event;
+use AIMuseVendor\Symfony\Contracts\EventDispatcher\Event;
 
 /**
  * Allows to inspect input and output of a command.

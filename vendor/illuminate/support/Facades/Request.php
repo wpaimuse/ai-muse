@@ -5,20 +5,20 @@ namespace AIMuseVendor\Illuminate\Support\Facades;
 /**
  * @method static \Closure getRouteResolver()
  * @method static \Closure getUserResolver()
- * @method static \Illuminate\Http\Request capture()
- * @method static \Illuminate\Http\Request createFrom(\Illuminate\Http\Request $from, \Illuminate\Http\Request|null $to = null)
- * @method static \Illuminate\Http\Request createFromBase(\AIMuseVendor\Symfony\Component\HttpFoundation\Request $request)
- * @method static \Illuminate\Http\Request duplicate(array|null $query = null, array|null $request = null, array|null $attributes = null, array|null $cookies = null, array|null $files = null, array|null $server = null)
- * @method static \Illuminate\Http\Request instance()
- * @method static \Illuminate\Http\Request merge(array $input)
- * @method static \Illuminate\Http\Request replace(array $input)
- * @method static \Illuminate\Http\Request setJson(\AIMuseVendor\Symfony\Component\HttpFoundation\ParameterBag $json)
- * @method static \Illuminate\Http\Request setRouteResolver(\Closure $callback)
- * @method static \Illuminate\Http\Request setUserResolver(\Closure $callback)
- * @method static \Illuminate\Http\UploadedFile|\Illuminate\Http\UploadedFile[]|array|null file(string|null $key = null, mixed $default = null)
+ * @method static \AIMuseVendor\Illuminate\Http\Request capture()
+ * @method static \AIMuseVendor\Illuminate\Http\Request createFrom(\AIMuseVendor\Illuminate\Http\Request $from, \AIMuseVendor\Illuminate\Http\Request|null $to = null)
+ * @method static \AIMuseVendor\Illuminate\Http\Request createFromBase(\AIMuseVendor\Symfony\Component\HttpFoundation\Request $request)
+ * @method static \AIMuseVendor\Illuminate\Http\Request duplicate(array|null $query = null, array|null $request = null, array|null $attributes = null, array|null $cookies = null, array|null $files = null, array|null $server = null)
+ * @method static \AIMuseVendor\Illuminate\Http\Request instance()
+ * @method static \AIMuseVendor\Illuminate\Http\Request merge(array $input)
+ * @method static \AIMuseVendor\Illuminate\Http\Request replace(array $input)
+ * @method static \AIMuseVendor\Illuminate\Http\Request setJson(\AIMuseVendor\Symfony\Component\HttpFoundation\ParameterBag $json)
+ * @method static \AIMuseVendor\Illuminate\Http\Request setRouteResolver(\Closure $callback)
+ * @method static \AIMuseVendor\Illuminate\Http\Request setUserResolver(\Closure $callback)
+ * @method static \AIMuseVendor\Illuminate\Http\UploadedFile|\AIMuseVendor\Illuminate\Http\UploadedFile[]|array|null file(string|null $key = null, mixed $default = null)
  * @method static \Illuminate\Routing\Route|object|string route(string|null $param = null, string|null $default = null)
- * @method static \Illuminate\Session\Store session()
- * @method static \Illuminate\Session\Store|null getSession()
+ * @method static \AIMuseVendor\Illuminate\Session\Store session()
+ * @method static \AIMuseVendor\Illuminate\Session\Store|null getSession()
  * @method static \AIMuseVendor\Symfony\Component\HttpFoundation\ParameterBag|mixed json(string|null $key = null, mixed $default = null)
  * @method static array all(array|mixed|null $keys = null)
  * @method static array allFiles()
@@ -87,7 +87,7 @@ namespace AIMuseVendor\Illuminate\Support\Facades;
  * @method static void offsetUnset(string $offset)
  * @method static void setLaravelSession(\AIMuseVendor\Illuminate\Contracts\Session\Session $session)
  *
- * @see \Illuminate\Http\Request
+ * @see \AIMuseVendor\Illuminate\Http\Request
  */
 class Request extends Facade
 {

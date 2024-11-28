@@ -20,7 +20,7 @@ use AIMuseVendor\Symfony\Component\HttpFoundation\File\Exception\IniSizeFileExce
 use AIMuseVendor\Symfony\Component\HttpFoundation\File\Exception\NoFileException;
 use AIMuseVendor\Symfony\Component\HttpFoundation\File\Exception\NoTmpDirFileException;
 use AIMuseVendor\Symfony\Component\HttpFoundation\File\Exception\PartialFileException;
-use Symfony\Component\Mime\MimeTypes;
+use AIMuseVendor\Symfony\Component\Mime\MimeTypes;
 
 /**
  * A file uploaded through a form.

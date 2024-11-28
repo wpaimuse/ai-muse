@@ -11,7 +11,7 @@ use RuntimeException;
 use SplFileObject;
 use Symfony\Component\Filesystem\Filesystem as SymfonyFilesystem;
 use AIMuseVendor\Symfony\Component\Finder\Finder;
-use Symfony\Component\Mime\MimeTypes;
+use AIMuseVendor\Symfony\Component\Mime\MimeTypes;
 
 class Filesystem
 {

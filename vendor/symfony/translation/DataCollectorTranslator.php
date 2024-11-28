@@ -11,7 +11,7 @@
 
 namespace AIMuseVendor\Symfony\Component\Translation;
 
-use Symfony\Component\HttpKernel\CacheWarmer\WarmableInterface;
+use AIMuseVendor\Symfony\Component\HttpKernel\CacheWarmer\WarmableInterface;
 use AIMuseVendor\Symfony\Component\Translation\Exception\InvalidArgumentException;
 use AIMuseVendor\Symfony\Contracts\Translation\LocaleAwareInterface;
 use AIMuseVendor\Symfony\Contracts\Translation\TranslatorInterface;

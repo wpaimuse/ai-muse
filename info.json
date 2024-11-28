@@ -1,0 +1,29 @@
+{
+  "name": "AI Muse",
+  "slug": "ai-muse",
+  "author": "<a href='https://github.com/wpaimuse'>WP AI Muse</a>",
+  "author_profile": "https://github.com/wpaimuse",
+  "version": "{{version}}",
+  "download_url": "https://github.com/wpaimuse/ai-muse/releases/download/v{{version}}/build-{{version}}.zip",
+  "requires": "6.1",
+  "tested": "6.7.1",
+  "requires_php": "7.4",
+  "rating": 100,
+  "num_ratings": 9000,
+  "ratings": {
+    "5": 9000,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "support_url": "https://github.com/wpaimuse/ai-muse/issues",
+  "active_installs": 1000000,
+  "added": "2023-01-01",
+  "homepage": "https://www.wpaimuse.com",
+  "last_updated": "{{date}}",
+  "banners": {
+    "low": "https://raw.githubusercontent.com/wpaimuse/ai-muse/refs/heads/main/.wordpress.org/banner-772x250.png",
+    "high": "https://raw.githubusercontent.com/wpaimuse/ai-muse/refs/heads/main/.wordpress.org/banner-1544x500.png"
+  }
+}

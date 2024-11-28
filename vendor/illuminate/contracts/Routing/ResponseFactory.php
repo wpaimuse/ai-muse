@@ -10,7 +10,7 @@ interface ResponseFactory
      * @param  array|string  $content
      * @param  int  $status
      * @param  array  $headers
-     * @return \Illuminate\Http\Response
+     * @return \AIMuseVendor\Illuminate\Http\Response
      */
     public function make($content = '', $status = 200, array $headers = []);
 
@@ -19,7 +19,7 @@ interface ResponseFactory
      *
      * @param  int  $status
      * @param  array  $headers
-     * @return \Illuminate\Http\Response
+     * @return \AIMuseVendor\Illuminate\Http\Response
      */
     public function noContent($status = 204, array $headers = []);
 
@@ -30,7 +30,7 @@ interface ResponseFactory
      * @param  array  $data
      * @param  int  $status
      * @param  array  $headers
-     * @return \Illuminate\Http\Response
+     * @return \AIMuseVendor\Illuminate\Http\Response
      */
     public function view($view, $data = [], $status = 200, array $headers = []);
 
@@ -41,7 +41,7 @@ interface ResponseFactory
      * @param  int  $status
      * @param  array  $headers
      * @param  int  $options
-     * @return \Illuminate\Http\JsonResponse
+     * @return \AIMuseVendor\Illuminate\Http\JsonResponse
      */
     public function json($data = [], $status = 200, array $headers = [], $options = 0);
 
@@ -53,7 +53,7 @@ interface ResponseFactory
      * @param  int  $status
      * @param  array  $headers
      * @param  int  $options
-     * @return \Illuminate\Http\JsonResponse
+     * @return \AIMuseVendor\Illuminate\Http\JsonResponse
      */
     public function jsonp($callback, $data = [], $status = 200, array $headers = [], $options = 0);
 
@@ -105,7 +105,7 @@ interface ResponseFactory
      * @param  int  $status
      * @param  array  $headers
      * @param  bool|null  $secure
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \AIMuseVendor\Illuminate\Http\RedirectResponse
      */
     public function redirectTo($path, $status = 302, $headers = [], $secure = null);
 
@@ -116,7 +116,7 @@ interface ResponseFactory
      * @param  mixed  $parameters
      * @param  int  $status
      * @param  array  $headers
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \AIMuseVendor\Illuminate\Http\RedirectResponse
      */
     public function redirectToRoute($route, $parameters = [], $status = 302, $headers = []);
 
@@ -127,7 +127,7 @@ interface ResponseFactory
      * @param  mixed  $parameters
      * @param  int  $status
      * @param  array  $headers
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \AIMuseVendor\Illuminate\Http\RedirectResponse
      */
     public function redirectToAction($action, $parameters = [], $status = 302, $headers = []);
 
@@ -138,7 +138,7 @@ interface ResponseFactory
      * @param  int  $status
      * @param  array  $headers
      * @param  bool|null  $secure
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \AIMuseVendor\Illuminate\Http\RedirectResponse
      */
     public function redirectGuest($path, $status = 302, $headers = [], $secure = null);
 
@@ -149,7 +149,7 @@ interface ResponseFactory
      * @param  int  $status
      * @param  array  $headers
      * @param  bool|null  $secure
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \AIMuseVendor\Illuminate\Http\RedirectResponse
      */
     public function redirectToIntended($default = '/', $status = 302, $headers = [], $secure = null);
 }

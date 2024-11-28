@@ -16,7 +16,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\DependencyInjection\ServiceLocator;
-use Symfony\Component\HttpKernel\Controller\ArgumentResolver\TraceableValueResolver;
+use AIMuseVendor\Symfony\Component\HttpKernel\Controller\ArgumentResolver\TraceableValueResolver;
 
 /**
  * @author Yonel Ceruto <yonelceruto@gmail.com>

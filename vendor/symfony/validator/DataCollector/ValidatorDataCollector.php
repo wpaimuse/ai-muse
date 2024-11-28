@@ -14,13 +14,13 @@ namespace AIMuseVendor\Symfony\Component\Validator\DataCollector;
 use Symfony\Component\Form\FormInterface;
 use AIMuseVendor\Symfony\Component\HttpFoundation\Request;
 use AIMuseVendor\Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpKernel\DataCollector\DataCollector;
-use Symfony\Component\HttpKernel\DataCollector\LateDataCollectorInterface;
+use AIMuseVendor\Symfony\Component\HttpKernel\DataCollector\DataCollector;
+use AIMuseVendor\Symfony\Component\HttpKernel\DataCollector\LateDataCollectorInterface;
 use AIMuseVendor\Symfony\Component\Validator\Validator\TraceableValidator;
-use Symfony\Component\VarDumper\Caster\Caster;
-use Symfony\Component\VarDumper\Caster\ClassStub;
-use Symfony\Component\VarDumper\Cloner\Data;
-use Symfony\Component\VarDumper\Cloner\Stub;
+use AIMuseVendor\Symfony\Component\VarDumper\Caster\Caster;
+use AIMuseVendor\Symfony\Component\VarDumper\Caster\ClassStub;
+use AIMuseVendor\Symfony\Component\VarDumper\Cloner\Data;
+use AIMuseVendor\Symfony\Component\VarDumper\Cloner\Stub;
 
 /**
  * @author Maxime Steinhausser <maxime.steinhausser@gmail.com>
