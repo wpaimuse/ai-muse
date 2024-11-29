@@ -3,7 +3,6 @@
 namespace AIMuse\WordPress\Hooks\Actions;
 
 use AIMuse\Helpers\UpdateHelper;
-use WP_Upgrader;
 
 /**
  * Fires when the upgrader process is complete.
@@ -18,11 +17,8 @@ class UpgraderProcessCompleteAction extends Action
     $this->name = "upgrader_process_complete";
   }
 
-  public function handle($upgrader, array $hookExtra)
+  public function handle()
   {
-    if ($hookExtra['action'] !== 'update') return;
-    if ($hookExtra['type'] !== 'plugin') return;
-
     UpdateHelper::purge();
   }
 }
