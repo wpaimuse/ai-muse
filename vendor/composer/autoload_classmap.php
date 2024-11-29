@@ -177,6 +177,7 @@ return array(
     'AIMuse\\WordPress\\Hooks\\Actions\\TestAction' => $baseDir . '/src/WordPress/Hooks/Actions/TestAction.php',
     'AIMuse\\WordPress\\Hooks\\Actions\\TextBlockAssetsAction' => $baseDir . '/src/WordPress/Hooks/Actions/TextBlockAssetsAction.php',
     'AIMuse\\WordPress\\Hooks\\Actions\\TextBlockInitAction' => $baseDir . '/src/WordPress/Hooks/Actions/TextBlockInitAction.php',
+    'AIMuse\\WordPress\\Hooks\\Actions\\UpgraderProcessCompleteAction' => $baseDir . '/src/WordPress/Hooks/Actions/UpgraderProcessCompleteAction.php',
     'AIMuse\\WordPress\\Hooks\\Actions\\WpDeleteSiteAction' => $baseDir . '/src/WordPress/Hooks/Actions/WpDeleteSiteAction.php',
     'AIMuse\\WordPress\\Hooks\\Filters\\AllowedBlockTypesAllFilter' => $baseDir . '/src/WordPress/Hooks/Filters/AllowedBlockTypesAllFilter.php',
     'AIMuse\\WordPress\\Hooks\\Filters\\CronSchedulesFilter' => $baseDir . '/src/WordPress/Hooks/Filters/CronSchedulesFilter.php',

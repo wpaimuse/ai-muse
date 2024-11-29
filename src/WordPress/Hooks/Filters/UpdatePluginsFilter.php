@@ -35,10 +35,20 @@ class UpdatePluginsFilter extends Filter
       ],
     ]);
 
-    dd($data);
+    if (!$data) return $transient;
+    if (version_compare($data->requires, get_bloginfo('version'), '>')) return $transient;
+    if (version_compare($data->requires_php, PHP_VERSION, '>')) return $transient;
 
-    dd($transient);
-    $plugin_data = get_plugin_data("https://raw.githubusercontent.com/wpaimuse/ai-muse/refs/heads/main/aimuse.php");
-    dd($plugin_data);
+    $result = (object) [
+      'slug'        => aimuse()->name(),
+      'plugin'      => aimuse()->file(),
+      'new_version' => $data->version,
+      'tested'         => $data->tested,
+      'package'     => $data->download_url,
+    ];
+
+    $transient->response[$result->plugin] = $result;
+
+    return $transient;
   }
 }

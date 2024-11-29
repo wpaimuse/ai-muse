@@ -2,6 +2,8 @@
 
 namespace AIMuse\WordPress\Hooks\Filters;
 
+use AIMuse\Helpers\UpdateHelper;
+
 /**
  * Filters the response for the current WordPress.org Plugin Installation API request.
 
@@ -16,8 +18,6 @@ class PluginsApiFilter extends Filter
     $this->acceptedArgs = 3;
   }
 
-  public static $processing = false;
-
   /**
    * Filters the response for the current WordPress.org Plugin Installation API request.
    *
@@ -29,13 +29,11 @@ class PluginsApiFilter extends Filter
   public function handle($result, $action, $args)
   {
     if ($args->slug !== aimuse()->name()) return $result;
-    if (self::$processing) return $result;
 
-    self::$processing = true;
-    $result = plugins_api($action, $args);
+    $response = UpdateHelper::info($action, $args);
 
-    dd($result);
+    if (!$response) return $result;
 
-    return $result;
+    return $response;
   }
 }

@@ -7,7 +7,6 @@ use AIMuseVendor\Monolog\Logger;
 use WP_Filesystem_Direct;
 use AIMuse\Models\Settings;
 use AIMuse\Services\Api\Client;
-use AIMuseVendor\Illuminate\Support\Facades\Http;
 use AIMuseVendor\Monolog\Handler\StreamHandler;
 use AIMuseVendor\Illuminate\Container\Container;
 use AIMuseVendor\Illuminate\Events\Dispatcher;

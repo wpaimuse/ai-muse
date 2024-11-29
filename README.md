@@ -20,6 +20,6 @@ Whether you're looking to generate engaging articles, SEO-optimized descriptions
 
 It seamlessly integrates with WooCommerce, supports various post types, and offers advanced statistics for usage and cost tracking.
 
-Want to know more? Read the AI Muse documentation! 👉 [wpaimuse.com/docs](https://wpaimuse.com/ "wpaimuse.com/docs")
+Want to know more? Read the AI Muse documentation! 👉 [docs](https://wpaimuse.com/)
 
-Join AI Muse Community: Get support, submit new features, report bugs and connect with fellow AI Muse users at 👉 [community.wpaimuse.com](https://community.wpaimuse.com/ "community.wpaimuse.com")
+Join AI Muse Community: Get support, submit new features, report bugs and connect with fellow AI Muse users at 👉 [community](https://community.wpaimuse.com/)

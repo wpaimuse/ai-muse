@@ -537,6 +537,7 @@ class ComposerStaticInitAIMuseVendor
         'AIMuse\\WordPress\\Hooks\\Actions\\TestAction' => __DIR__ . '/../..' . '/src/WordPress/Hooks/Actions/TestAction.php',
         'AIMuse\\WordPress\\Hooks\\Actions\\TextBlockAssetsAction' => __DIR__ . '/../..' . '/src/WordPress/Hooks/Actions/TextBlockAssetsAction.php',
         'AIMuse\\WordPress\\Hooks\\Actions\\TextBlockInitAction' => __DIR__ . '/../..' . '/src/WordPress/Hooks/Actions/TextBlockInitAction.php',
+        'AIMuse\\WordPress\\Hooks\\Actions\\UpgraderProcessCompleteAction' => __DIR__ . '/../..' . '/src/WordPress/Hooks/Actions/UpgraderProcessCompleteAction.php',
         'AIMuse\\WordPress\\Hooks\\Actions\\WpDeleteSiteAction' => __DIR__ . '/../..' . '/src/WordPress/Hooks/Actions/WpDeleteSiteAction.php',
         'AIMuse\\WordPress\\Hooks\\Filters\\AllowedBlockTypesAllFilter' => __DIR__ . '/../..' . '/src/WordPress/Hooks/Filters/AllowedBlockTypesAllFilter.php',
         'AIMuse\\WordPress\\Hooks\\Filters\\CronSchedulesFilter' => __DIR__ . '/../..' . '/src/WordPress/Hooks/Filters/CronSchedulesFilter.php',
