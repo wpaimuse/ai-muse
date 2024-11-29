@@ -16,7 +16,7 @@
  * Plugin Name:       AI Muse
  * Plugin URI:        https://wpaimuse.com
  * Description:       AI Chatbot and AI Content Generation with over 300+ models from OpenAI (ChatGPT), Google AI and OpenRouter. Generate contents and images with AI Muse.
- * Version:           1.3.5
+ * Version:           1.3.6
  * Author:            AI Muse
  * Author URI:        https://wpaimuse.com/
  * License:           GPL-2.0+
@@ -32,7 +32,7 @@ if (!defined('WPINC')) {
 }
 
 define('AI_MUSE_NAME', 'aimuse');
-define('AI_MUSE_VERSION', '1.3.5');
+define('AI_MUSE_VERSION', '1.3.6');
 define('AI_MUSE_PREFIX', 'aimuse');
 define('AI_MUSE_DIR', plugin_dir_path(__FILE__));
 define('AI_MUSE_FILE', plugin_basename(__FILE__));
