@@ -36,8 +36,11 @@ class UpdatePluginsFilter extends Filter
     ]);
 
     if (!$data) return $transient;
-    if (version_compare($data->requires, get_bloginfo('version'), '>')) return $transient;
-    if (version_compare($data->requires_php, PHP_VERSION, '>')) return $transient;
+
+    $key = 'response';
+    if (version_compare($data->requires, get_bloginfo('version'), '>')) $key = 'no_update';
+    if (version_compare($data->requires_php, PHP_VERSION, '>')) $key = 'no_update';
+    if (version_compare($data->version, aimuse()->version(), '<=')) $key = 'no_update';
 
     $result = (object) [
       'slug'        => aimuse()->name(),
@@ -47,7 +50,7 @@ class UpdatePluginsFilter extends Filter
       'package'     => $data->download_url,
     ];
 
-    $transient->response[$result->plugin] = $result;
+    $transient->{$key}[$result->plugin] = $result;
 
     return $transient;
   }

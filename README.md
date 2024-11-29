@@ -1,5 +1,7 @@
 # WordPress AI Muse Plugin
 
+![AI Muse](https://github.com/wpaimuse/ai-muse/blob/main/.wordpress.org/banner-1544x500.png?raw=true)
+
 AI Chatbot and AI Content Generation with over 300+ models from OpenAI (ChatGPT), Google AI and OpenRouter. Generate contents and images with AI Muse.
 
 ## Description
