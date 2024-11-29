@@ -21,31 +21,12 @@
   "active_installs": 1000000,
   "added": "2023-01-01",
   "homepage": "https://www.wpaimuse.com",
-  "last_updated": "2024-11-29 06:37:57",
+  "last_updated": "2024-11-29 06:39:45",
   "banners": {
     "low": "https://raw.githubusercontent.com/wpaimuse/ai-muse/refs/heads/main/.wordpress.org/banner-772x250.png",
     "high": "https://raw.githubusercontent.com/wpaimuse/ai-muse/refs/heads/main/.wordpress.org/banner-1544x500.png"
   },
   "sections": {
-    "description": "<p>AI Chatbot and AI Content Generation with over 300+ models from OpenAI (ChatGPT), Google AI and OpenRouter. Generate contents and images with AI Muse.</p>
-
-<p>Supporting over 300+ AI models from OpenAI, Google AI, and OpenRouter, this powerful tool brings the future of automated content generation directly into your WordPress Block Editor or Site Editor.</p>
-
-<p>Personalize your AIMuse with Custom Prompts and Prompt Templates features for your unique needs.</p>
-
-<p>Utilize AI Content Generator for SEO suggestions, image creation, and streamlining WooCommerce product population.</p>
-
-<p>Control the writing style of generated content, choosing from informative, descriptive, creative, and more. Additionally, incorporate desired emotions or any style using custom prompts in any supported language.</p>
-
-<p>Conveniently manage and update your LLM API keys from within the plugin settings.</p>
-
-<p>Whether you&rsquo;re looking to generate engaging articles, SEO-optimized descriptions, keywords, stunning images, or manage bulk content creation efficiently, our plugin has got you covered.</p>
-
-<p>It seamlessly integrates with WooCommerce, supports various post types, and offers advanced statistics for usage and cost tracking.</p>
-
-<p>Want to know more? Read the AI Muse documentation! 👉 <a href="https://wpaimuse.com/" target="_blank" title="wpaimuse.com/docs">wpaimuse.com/docs</a></p>
-
-<p>Join AI Muse Community: Get support, submit new features, report bugs and connect with fellow AI Muse users at 👉 <a href="https://community.wpaimuse.com/" target="_blank" title="community.wpaimuse.com">community.wpaimuse.com</a></p>
-"
+    "description": "<p>AI Chatbot and AI Content Generation with over 300+ models from OpenAI (ChatGPT), Google AI and OpenRouter. Generate contents and images with AI Muse.</p><p>Supporting over 300+ AI models from OpenAI, Google AI, and OpenRouter, this powerful tool brings the future of automated content generation directly into your WordPress Block Editor or Site Editor.</p><p>Personalize your AIMuse with Custom Prompts and Prompt Templates features for your unique needs.</p><p>Utilize AI Content Generator for SEO suggestions, image creation, and streamlining WooCommerce product population.</p><p>Control the writing style of generated content, choosing from informative, descriptive, creative, and more. Additionally, incorporate desired emotions or any style using custom prompts in any supported language.</p><p>Conveniently manage and update your LLM API keys from within the plugin settings.</p><p>Whether you&rsquo;re looking to generate engaging articles, SEO-optimized descriptions, keywords, stunning images, or manage bulk content creation efficiently, our plugin has got you covered.</p><p>It seamlessly integrates with WooCommerce, supports various post types, and offers advanced statistics for usage and cost tracking.</p><p>Want to know more? Read the AI Muse documentation! 👉 <a href=\"https://wpaimuse.com/\" target=\"_blank\" title=\"wpaimuse.com/docs\">wpaimuse.com/docs</a></p><p>Join AI Muse Community: Get support, submit new features, report bugs and connect with fellow AI Muse users at 👉 <a href=\"https://community.wpaimuse.com/\" target=\"_blank\" title=\"community.wpaimuse.com\">community.wpaimuse.com</a></p>"
   }
 }
