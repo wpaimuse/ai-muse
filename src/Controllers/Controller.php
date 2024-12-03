@@ -42,13 +42,13 @@ class Controller
       } catch (ControllerException $error) {
         return new WP_REST_Response([
           'errors' => $error->getErrors(),
-          'request' => $request->id,
+          'request' => $request->id(),
         ], $error->getCode());
       } catch (Throwable $error) {
         Log::error($error->getMessage(), [
           'error' => $error,
           'trace' => $error->getTrace(),
-          'request' => $request->id,
+          'request' => $request->id(),
         ]);
 
         $error = [
@@ -68,7 +68,7 @@ class Controller
           'errors' => [
             $error
           ],
-          'request' => $request->id,
+          'request' => $request->id(),
         ], 500);
       }
 

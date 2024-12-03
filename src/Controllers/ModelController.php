@@ -139,7 +139,7 @@ class ModelController extends Controller
       Log::error('Model synchronization failed', [
         'error' => $th,
         'trace' => $th->getTrace(),
-        'request' => $request->id,
+        'request' => $request->id(),
       ]);
 
       throw new ControllerException([

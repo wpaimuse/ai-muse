@@ -243,14 +243,14 @@ class ChatController extends Controller
       if ($th instanceof ControllerException) {
         $th->log('An error occured when generating text for chatbot', [
           'chat_id' => $chat->id,
-          'request' => $request->id,
+          'request' => $request->id(),
         ]);
       } else {
         Log::error('An error occured when generating text for chatbot', [
           'chat_id' => $chat->id,
           'error' => $th,
           'trace' => $th->getTrace(),
-          'request' => $request->id,
+          'request' => $request->id(),
         ]);
       }
 

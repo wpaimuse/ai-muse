@@ -19,7 +19,7 @@ class Request
   protected array $query;
   protected array $files;
   protected array $json;
-  public string $id;
+  private string $_id;
 
   public function __construct(WP_REST_Request $request)
   {
@@ -42,7 +42,12 @@ class Request
 
     $this->params = $request->get_params();
     $this->parseHeaders();
-    $this->id = $this->genetateId();
+    $this->_id = $this->genetateId();
+  }
+
+  public function id()
+  {
+    return $this->_id;
   }
 
   private function genetateId()

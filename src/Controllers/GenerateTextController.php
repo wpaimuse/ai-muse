@@ -130,7 +130,7 @@ class GenerateTextController extends Controller
       Log::error('An error occured when replacing variables in user prompt', [
         'error' => $th->getMessage(),
         'trace' => $th->getTraceAsString(),
-        'request' => $request->id,
+        'request' => $request->id(),
       ]);
 
       throw ControllerException::make('An error occured when replacing variables in user prompt', 500);
@@ -143,7 +143,7 @@ class GenerateTextController extends Controller
         Log::error('An error occured when replacing variables in system prompt', [
           'error' => $th->getMessage(),
           'trace' => $th->getTraceAsString(),
-          'request' => $request->id,
+          'request' => $request->id(),
         ]);
 
         throw ControllerException::make('An error occured when replacing variables in system prompt', 500);

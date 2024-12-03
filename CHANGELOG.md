@@ -2,6 +2,10 @@
 
 ### This is the changelog for AI Muse WordPress Plugin.
 
+### [1.3.7] - 2024-12-03
+
+- Prompt template update error has been fixed.
+
 ### [1.3.6] - 2024-11-28
 
 - Custom Update Method: Implemented a custom update mechanism to fetch updates directly from a GitHub repository.
